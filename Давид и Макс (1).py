@@ -129,8 +129,9 @@ class TamagotchiApp(ctk.CTk):
 
     def game_over(self, reason):
         self.alive = False
-        messagebox.showinfo("Игра окончена", f"Ваш питомец {reason}.")
+        messagebox.showinfo("Игра окончена", f"Ваш Тамагочи {reason}.")
 
 
 if __name__ == "__main__":
     StartWindow().mainloop()
+
